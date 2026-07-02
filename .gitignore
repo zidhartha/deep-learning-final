@@ -93,3 +93,4 @@ runs/
 wandb/
 tensorboard/
 logs/
+artifacts/
