@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# =========================
+# Build
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Model checkpoints
+# Uncomment ONLY if you do NOT want to upload them
+# =========================
+# *.pth
+# *.pt
+# *.ckpt
+# checkpoints/
+
+# =========================
+# Dataset
+# =========================
+caption_data/
+data/
+dataset/
+datasets/
+
+# Ignore compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+results/
+predictions/
+runs/
+wandb/
+tensorboard/
+logs/
